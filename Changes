@@ -1,0 +1,6 @@
+Revision history for Perl extension Tree::Authz.
+
+0.01  Thu Aug 26 12:38:49 2004
+	- original version; created by h2xs 1.21 with options
+		-XAn Tree::Authz
+
