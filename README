@@ -1,37 +1,29 @@
-Tree/Authz version 0.01
-=======================
+Tree-Authz
 
-Class for inheritable, groups-based permissions system (Access Control List).
+The README is used to introduce the module and provide instructions on
+how to install the module, any machine dependencies it may have (for
+example C compilers and installed libraries) and any other information
+that should be provided before the module is installed.
 
-Custom methods can be placed on group objects. Authorization can be performed
-either by checking whether the group name matches the required name, or by
-testing (via C<can>) whether the group can perform the method required.
-
-VERSION 0.01 initial release
+A README file is required for CPAN modules since CPAN extracts the README
+file from a module distribution so that people browsing the archive
+can use it get an idea of the modules uses. It is usually a good idea
+to provide version information here so that people can decide whether
+fixes for the module are worth downloading.
 
 INSTALLATION
 
-To install this module type the following:
+To install this module, run the following commands:
 
-   perl Makefile.PL
-   make
-   make test
-   make install
+    perl Build.PL
+    ./Build
+    ./Build test
+    ./Build install
 
-DEPENDENCIES
-
-Lingua::EN::Inflect::Number
-
-Class::Data::Inheritable
-
-Optional - Devel::Symdump
-
-Sub::Override for the test suite.
 
 COPYRIGHT AND LICENCE
 
-Copyright 2004 by David Baird.
+Copyright (C) 2004 David Baird
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
-

@@ -1,6 +1,11 @@
-Revision history for Perl extension Tree::Authz.
+Revision history for Tree-Authz
 
-0.01  Thu Aug 26 12:38:49 2004
-	- original version; created by h2xs 1.21 with options
-		-XAn Tree::Authz
+0.02_1  30 Nov 2004, 17:00 GMT
+    - changed terminology to talk about 'roles' instead of 'groups'
+    - renamed some methods to reflect new terminology
+    - old methods should still work, but will complain via carp
+    - added a new class to represent roles - Tree::Authz::Role
+
+0.01    Date/time
+        First version, released on an unsuspecting world.
 

@@ -1,6 +1,11 @@
-Authz.pm
+Build.PL
 Changes
-Makefile.PL
 MANIFEST
+META.yml # Will be created by "make dist"
 README
-test.pl
+lib/Tree/Authz.pm
+lib/Tree/Authz/Role.pm
+t/00.load.t
+t/01.main.t
+t/pod-coverage.t
+t/pod.t
