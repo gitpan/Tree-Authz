@@ -7,7 +7,7 @@
 
 # change 'tests => 1' to 'tests => last_test_to_print';
 
-use Test::More tests => 62;
+use Test::More tests => 60;
 use Test::Exception;
 
 use Tree::Authz;
@@ -210,7 +210,9 @@ dies_ok  { $spies->setup_plugins_on_role( 'spies', 'My::Spies' ) } "can't setup_
 lives_ok { $SpyLand->setup_plugins_on_role( 'spies', 'My::Spies' ) } "can   setup_plugins_on_role through $SpyLand";
 ok( $spies->can( 'wear_silly_disguise' ), 'got new ability' );
 
-### persistence methods - experimental 
+__END__
+
+### persistence methods - experimental
 
 {
     package My::Persist;

@@ -22,7 +22,7 @@ __PACKAGE__->mk_classdata( '__namespace' );
 
 __PACKAGE__->_AllRoles( {} );
 
-our $VERSION = '0.02_1';
+our $VERSION = '0.02_2';
 
 =head1 NAME
 
