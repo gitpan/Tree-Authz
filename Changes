@@ -1,5 +1,8 @@
 Revision history for Tree-Authz
 
+0.03    21 Aug 2005, 01:45
+    - no change, been using for ages without problems
+
 0.02_2   2 Dec 2004, 22:22 GMT
     - removed a couple of tests of the database API, which is still
       very experimental. 

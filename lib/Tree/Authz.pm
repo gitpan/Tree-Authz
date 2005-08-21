@@ -3,6 +3,7 @@ use strict;
 use warnings;
 use Carp;
 
+
 # persistence doesn't work - propagating changes to other processes
 
 # TODO - plugin sets - specify a search path e.g. My::App::Roles
@@ -22,7 +23,7 @@ __PACKAGE__->mk_classdata( '__namespace' );
 
 __PACKAGE__->_AllRoles( {} );
 
-our $VERSION = '0.02_2';
+our $VERSION = '0.03';
 
 =head1 NAME
 
